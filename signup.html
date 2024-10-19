@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project 17 | GeoLab07-Full-E-Commerce-Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="./assets/images/icons8-javascript.svg" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/header-footer.css" />
+  <link rel="stylesheet" href="./styles/signup.css" />
+</head>
+
+<body>
+  <header>
+    <div class="top-black-line">
+      <div class="div-width">
+        <div class="top-desclaimer">
+          <p class="top-text">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="shop"> Shop Now </a>
+        </div>
+        <div class="change-language">
+          <p class="language">English</p>
+          <img src="./assets/images/icon-downarrow.svg" alt="icon-downarrow" />
+        </div>
+      </div>
+
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo-nav">
+        <a href="#">
+          <img class="navbar-logo" src="./assets/images/logo.svg" alt="logo" />
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="./signup.html" class="nav-link active">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="search-container">
+        <input type="text" name="search" class="search-input" placeholder="What are you looking for?" />
+        <img src="./assets/images/icon-heart.svg" alt="icon-heart" />
+        <img src="./assets/images/icon-cart.svg" alt="icon-cart" />
+      </div>
+    </nav>
+  </header>
+  <main class="f">
+    <div class="signup-card f">
+      <div class="headline f">
+        <h2 class="premium">Premium</h2>
+        <h2 class="price">$199 <span>/month</span></h2>
+        </span>
+      </div>
+      <p class="h2-discription">Faster Instagram Growth</p>
+      <form class="" action="/action_page.php" method="get">
+        <input type="mail" name="mail" id="mail" placeholder="Email">
+        <input type="text" name="cardholder" id="cardholder" placeholder="Cardholder Name">
+        <input type="number" class="cardnumber" name="cardnumber" id="cardnumber" placeholder="Card Number">
+        <input class="col-1" type="number" name="date" id="date" placeholder="Date">
+        <input class="col-2" type="number" name="cvv" id="cvv" placeholder="CVV">
+        <select class="col-1 option1" name="country" id="country">
+          <option class="" value="0" disabled selected>Country</option>
+          <option value="georgia">Georgia</option>
+          <option value="usa">USA</option>
+        </select>
+        <input class="col-2" type="number" name="zip" id="zip" placeholder="Zip">
+        <input type="number" name="d-code" id="d-code" placeholder="Discount Code">
+
+        <label for="privacy" class="checkbox-container">
+          <input type="checkbox" checked="checked" id="privacy" name="privacy" value="privacy">
+          I accept the <a href="#">Terms of Service</a> and <a href="#">Privacy
+            Policy</a>
+          <span class="checkmark"></span>
+        </label>
+        <button class="btn btn-start" type="submit">Get started | $199 <span>$249</span></button>
+
+      </form>
+      <a href="#" class="btn btn-coupon" type="button">Have a coupon?</a>
+
+    </div>
+
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>

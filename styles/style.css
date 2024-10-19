@@ -1,0 +1,262 @@
+@import url(../styles/fonts.css);
+
+body {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+/* main styles */
+
+main {
+  width: 1170px;
+  height: 1500px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.main-section {
+  width: 100%;
+  height: 384px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  width: 233px;
+  height: 384px;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+  padding: 40px 16px 0 0;
+  gap: 16px;
+}
+
+.right-section {
+  width: 100%;
+  height: 384px;
+  padding: 40px 0 0 45px;
+}
+
+.black-space {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  background-color: #000;
+}
+
+.list-item a,
+.iphone-series {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.list-item a {
+  background-image: url(../assets/images/icon-right-arrow.svg);
+  background-position: right -8px center;
+  background-repeat: no-repeat;
+}
+
+.list-item a:hover {
+  font-weight: bold;
+}
+
+.list-item a:hover {
+  background-position: 97%;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+
+  padding: 56px 38px 47px 64px;
+  gap: 22px;
+}
+
+.iphone-series {
+  width: 190px;
+  height: 49px;
+  color: #fff;
+
+  gap: 24px;
+}
+
+.voucher {
+  width: 294px;
+  height: 120px;
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #fff;
+}
+
+.shop-now {
+  width: 113px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11.5px;
+  cursor: pointer;
+}
+
+.shop-now p {
+  width: 81px;
+  height: 24px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.shop-now a {
+  height: 28px;
+  border-bottom: 1px solid rgba(250, 250, 250, 1);
+}
+
+/* sales section */
+.sales-section {
+  margin-top: 140px;
+}
+
+.today {
+  width: 1170px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.left-corner-red-headline {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.today-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(219, 68, 68, 1);
+}
+
+.time-container {
+  width: 1170px;
+  height: 100%;
+  display: flex;
+  padding-top: 13px;
+  justify-content: space-between;
+}
+
+.h2-and-time-box {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flash-sales {
+  width: 211px;
+  height: 48px;
+  padding-top: 11px;
+
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+}
+
+.time-box {
+  width: 302px;
+  height: 50px;
+  display: flex;
+  gap: 17px;
+}
+
+.time-left {
+  width: 46px;
+  height: 50px;
+}
+
+.text-left {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.number-left {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.semicolon {
+  width: 4px;
+  height: 16px;
+  align-self: flex-end;
+  margin-bottom: 8px;
+}
+
+.icon-contradiction-arrows {
+  width: 100px;
+  height: 46px;
+  cursor: pointer;
+}
+
+.sales-list {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.btn-sales-section {
+  width: 234px;
+  height: 56px;
+
+  padding: 16px 48px;
+  gap: 10px;
+  margin: 60px auto;
+  border: none;
+  border-radius: 4px;
+  background: rgba(219, 68, 68, 1);
+
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(250, 250, 250, 1);
+}
+
+.btn-sales-section:hover {
+  background: rgb(206, 13, 13);
+  cursor: pointer;
+}
