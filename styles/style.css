@@ -1,9 +1,8 @@
 @import url(../styles/fonts.css);
 
 body {
-  width: 100%;
+  min-width: 1440px;
   display: flex;
-  margin: auto;
   background-color: #fff;
   flex-direction: column;
 }
@@ -12,7 +11,6 @@ body {
 
 main {
   width: 1170px;
-  height: 1500px;
   background-color: #fff;
   margin: auto;
 }
@@ -133,9 +131,10 @@ main {
   margin-top: 140px;
 }
 
-.today {
+.today,
+.featured {
   width: 1170px;
-  height: 103px;
+  /* height: 103px; */
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -149,7 +148,8 @@ main {
   gap: 16px;
 }
 
-.today-text {
+.today-text,
+.featured-text {
   font-family: "Poppins";
   font-size: 16px;
   font-weight: 600;
@@ -173,7 +173,7 @@ main {
   justify-content: space-between;
 }
 
-.flash-sales {
+h2 {
   width: 211px;
   height: 48px;
   padding-top: 11px;
@@ -259,4 +259,126 @@ main {
 .btn-sales-section:hover {
   background: rgb(206, 13, 13);
   cursor: pointer;
+}
+
+.playstation-container {
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+
+.featured {
+  height: 108px;
+}
+
+.new-arrival {
+  margin-top: 20px;
+}
+
+.playstation-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.playstation-div {
+  width: 570px;
+  height: 600px;
+  border-radius: 4px;
+  position: relative;
+  background-color: #000;
+  background-image: url(../assets/images/ps5.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.boxes {
+  width: 570px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.women-container {
+  width: 570px;
+  height: 284px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  position: relative;
+  background-color: #000;
+  background-image: url(../assets/images/woman-hat.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.speakers-container,
+.parfume-container {
+  width: 270px;
+  height: 284px;
+  border-radius: 4px;
+  position: relative;
+  background-color: #000;
+}
+
+.speakers-container {
+  background-image: url(../assets/images/amazon-speakers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.parfume-container {
+  background-image: url(../assets/images/gucci.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.playstation-container .text-container {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+
+.playstation-container .playstation-div .text-container {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+
+.playstation-container .text-container h3 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(250, 250, 250, 1);
+}
+
+.playstation-container .text-container p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(250, 250, 250, 1);
+}
+
+.playstation-container .playstation-div .text-container p,
+.playstation-container .women-container .text-container p {
+  width: 242px;
+
+  margin: 16px 0;
+}
+
+.playstation-container .speakers-container .text-container p,
+.playstation-container .parfume-container .text-container p {
+  margin: 8px 0;
+}
+
+.playstation-container .text-container a {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
